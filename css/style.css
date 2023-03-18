@@ -1,0 +1,327 @@
+body {
+    background-color: #fbfbfb;
+    height: 100%;
+  }
+  @media (min-width: 991.98px) {
+    main {
+      padding-left: 240px;
+    }
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
+  }
+  
+  @media (max-width: 991.98px) {
+    .sidebar {
+      width: 100%;
+    }
+  }
+  .sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  .table-header{
+    background-color: #F4F7FE;
+    border-radius: 5px;
+  }
+.mainside{
+    background-color: #455AF7;
+    height: 100%;
+  }
+  .list-group-item{
+    background: #455AF7;
+    color: white;
+    border-radius: 5px;
+    
+  }
+
+  .mainnav{
+    background-color: #F4F7FE;
+  }
+  .logos{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    width: 100px;
+    height: auto;
+    z-index: 111111111;
+    padding-bottom: 120px;
+    color: white;
+    background: transparent;
+    
+  }
+  #navbar{
+    width: 84%;
+    background-color: #F4F7FE;
+    position: absolute;
+    left: 16%;
+    top: 0;
+    display: flex;
+    position: relative;
+    
+
+  }
+  .username{
+    color: #363B46;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .favicon img{
+    width: 10px;
+    height: auto;
+  }
+  .logout{
+    position: absolute;
+    right: 2%;
+padding-top: 12px;
+text-decoration: none;
+
+
+}
+.jobs:focus{
+  color: black;
+  background-color: white;
+}
+.mainword{
+  padding-left:30px ;
+  padding-top: -50px;
+  font-family: Poppins;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.left-side {
+  width: 30%;
+  background-color: #fbfbfb;
+  margin-left: 40px;
+  
+}
+.right-side {
+  width: 50%;
+  background-color: #fbfbfb;
+  margin-left: 80px;
+}
+.profile-logo{
+  padding: 20px;
+  width: 80px;
+  height: auto;
+}
+
+.separator {
+  width: 4px;
+  background-color: rgb(95, 95, 146);
+}
+.change{
+  width:300px;
+  height: 40px;
+  border: none;
+  background-color: #DFE7FC;
+  color: #455AF7;
+  border-radius: 5px;
+}
+.right-side h7{
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+.right-side h6{
+  font-size: 11px;
+  font-weight: 100;
+}
+.address p{
+  font-size: 12px;
+  font-weight: 100;
+}
+.address a{
+  text-decoration: none;
+}
+.address a:hover{
+  cursor: pointer;
+  color: black;
+}
+.delete{
+  width:300px;
+  height: 40px;
+  border: none;
+  background-color: #FF2323;
+  color: white;
+  border-radius: 5px;
+}
+.left-side h4{
+  font-size: 18px;
+}
+.sidebar .nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .nav .nav-link {
+  display: flex;
+  align-items: center;
+}
+.ripple.active{
+  background: #F4F7FE;
+  color: black;
+}
+.list-group-item span{
+  text-align: center;
+  padding-left:15px ;
+}
+.navitem{
+  text-align: center;
+}
+
+
+#myInput {
+  background-image: url('/img/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 30%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border:none;
+  border-radius: 15px;
+  margin-bottom: 12px; 
+  margin-left: 50px;
+
+}
+
+#myTable {
+  border-collapse: collapse;
+
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  
+  background-color: #f1f1f1;
+}
+.tableicon{
+  padding: 10px;
+}
+
+.tablesection{
+  
+  border-radius: 15px;
+  width: 900px;
+  padding: 45px;
+  margin: 45px;
+}
+.sec{
+  width: 100%;
+}
+th, td {
+  padding: 15px;
+  text-align: centr;
+}
+.tablehead{
+  background-color: #BBCAFF;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+}
+.tablebody{
+  background-color: #fff;
+}
+.btn{
+  text-decoration: none;
+}
+.sitting{
+  width: 350px;
+  padding-left: 50px;
+}
+
+
+/* CLoCK IN overview */
+
+
+
+.clock {
+  background: black;
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  width: 620px;
+  height: 20vh;
+  color: white;
+  font-size: 22vh;
+  font-family: sans-serif;
+  line-height: 20.4vh;
+  display: flex;
+  position: relative;
+  /*background: green;*/
+  overflow: hidden;
+}
+
+.clock::before, .clock::after {
+  content: '';
+  width: 7ch;
+  height: 3vh;
+  background: linear-gradient(to top, transparent, black);
+  position: absolute;
+  z-index: 2;
+}
+
+.clock::after {
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent, black);
+}
+
+.clock > div {
+  display: flex;
+}
+
+.tick {
+  line-height: 17vh;
+}
+
+.tick-hidden {
+  opacity: 0;
+}
+
+.move {
+  animation: move linear 1s infinite;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(-20vh);
+  }
+}
+
